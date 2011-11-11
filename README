@@ -14,4 +14,4 @@ let (?a !) => (if (?a = 0)
 	        (id 1)
                 (?a * ((?a - 1) !)))
 
-Lambda Lists was created by Sturm Mabie.
+Lambda Lists was created by Sturm Mabie (sturm@cryptm.org).
