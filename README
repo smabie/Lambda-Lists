@@ -1,0 +1,17 @@
+Lambda Lists is a small little language written in Common Lisp,
+created a long time ago. It works by simple pattern replacement. Run
+(main) to start the REPL. The syntax of defining a new replacement is:
+
+(foo bar) => (bang whiz)
+
+The list on the left is the list to be replaced, the list on the right
+is what the left list is replaced by. Examples:
+
+let (sq ?a) => (?a * ?a)
+let (cube ?a) => (?a * (sq ?a))
+let (number of horns on a unicorn) => (id 1)
+let (?a !) => (if (?a = 0)
+	        (id 1)
+                (?a * ((?a - 1) !)))
+
+Lambda Lists was created by Sturm Mabie.
