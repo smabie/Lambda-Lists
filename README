@@ -1,6 +1,10 @@
 Lambda Lists is a small little language written in Common Lisp,
-created a long time ago. It works by simple pattern replacement. Run
-(main) to start the REPL. The syntax of defining a new replacement is:
+created a long time ago. It works by simple pattern replacement. Enter:
+
+(init-dict)
+(main)
+
+to start the REPL. The syntax of defining a new replacement is:
 
 let (foo bar) => (bang whiz)
 
